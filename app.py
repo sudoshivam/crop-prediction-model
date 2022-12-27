@@ -20,7 +20,7 @@ def predict():
     
     output = prediction
 
-    return render_template('index.html', prediction_text='Suggested crop for given soil health condition is "{}".'.format(output[0]))
+    return render_template('index.html', prediction_text='Suggested crop for given soil health condition is: "{}".'.format(output[0]))
 
 @app.route('/predict_api',methods=['POST'])
 def predict_api():

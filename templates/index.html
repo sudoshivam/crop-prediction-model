@@ -15,12 +15,12 @@
 <body>
  <div class="login">
 	<h1>Crop Prediction Using Soil Health Analysis</h1>
-
+  <h5>(Enter parameters received from sensors and click Predict to get the result.)</h5>
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	  <input type="text" name="N" placeholder="N" required="required" />
-        <input type="text" name="P" placeholder="P" required="required" />
-	    	<input type="text" name="K" placeholder="K" required="required" />
+    	  <input type="text" name="N" placeholder="N (Nitrogen)" required="required" />
+        <input type="text" name="P" placeholder="P (Potassium)" required="required" />
+	    	<input type="text" name="K" placeholder="K (Phosphorus)" required="required" />
         <input type="text" name="temperature" placeholder="Temperature" required="required" />
 	    	<input type="text" name="humidity" placeholder="Humidity" required="required" />
 	    	<input type="text" name="ph" placeholder="ph" required="required" />
