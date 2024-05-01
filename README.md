@@ -4,8 +4,8 @@
 A machine learning model to analyze soil parameters and recommend suitable crops. It uses Logistic Regression to predict crops based on the following 7 input parameters.
 
  1. Nitrogen (N) 
- 2. Potassium (P) 
- 3. Phosphorus (K) 
+ 2. Phosphorus (P) 
+ 3. Potassium (K) 
  4. Temperature 
  5. Humidity 
  6. pH Value 
