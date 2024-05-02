@@ -14,7 +14,7 @@ A machine learning model to analyze soil parameters and recommend suitable crops
 - The N-P-K values are ratio between Nitrogen, Phosphorous and Potassium. This means if soil contains 3% nitrogen (N), 2% phosphorus (P) and 5% potassium (K) then its NPK value is 3-2-5. 
 - Temperature, Humidity and Rainfall data can be acquired from weather portal or IoT sensors.
 - pH value is used to measure if soil is naturally acidic or alkaline. This data is acquired by testing soil in lab.
-
+ 
 ### Dataset Sample
 ![Dataset Sample](https://raw.githubusercontent.com/sudoshivam/crop-prediction-model/main/static/images/01.png)
 ## Usage
